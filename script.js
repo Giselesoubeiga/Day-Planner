@@ -1,6 +1,9 @@
 // Wait until Jquery is ready
 $( document ).ready(function() {
+  //Display current date
   //Variable to append cols
+var a= moment().format('dddd MMMM Do YYYY, h:mm');
+  $("#display-date").text(a)
   var row = ""
   //loop to dispaly 9am-18pm
     for (var i= 9 ; i<=18; i++){
@@ -42,3 +45,20 @@ $( document ).ready(function() {
       console.log(text)
      }
    }
+   //Apdate color
+   function updateColor(){
+     var hour = new Date().getHours();
+     for (var i= 9 ; i<=18; i++){
+       console.log(hour,i)
+       if(hour==i ) {
+        $(`#inputText${i}`).css("background","red")
+       }else  if(hour<i ){
+        
+         $(`#inputText${i}`).css("background","lightblue")
+
+       }
+     }
+   }
+   setInterval(function(){
+     updateColor()
+   },1000)
