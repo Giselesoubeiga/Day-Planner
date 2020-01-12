@@ -9,8 +9,8 @@ var a= moment().format('dddd MMMM Do YYYY, h:mm');
     for (var i= 9 ; i<=18; i++){
       // Creation of the row elements
       row = $(`<div class="row">`)
-      col1 = $(`<div class ="col-lg-2">${displayAmorPm(i)}</div>`)
-      col2 = $(`<div class ="col-lg-8"><input data-input="${i}" id="inputText${i}" class="form-control" type="text" name="userInput"></div>`)
+      col1 = $(`<div class ="col-lg-2 hour">${displayAmorPm(i)}</div>`)
+      col2 = $(`<div class ="col-lg-8 inputcontent"><input data-input="${i}" id="inputText${i}" class="form-control inputText" type="text" name="userInput"></div>`)
       col3 = $(`<div class ="col-lg-2"><button data-id="${i}" id="savePlanner" class="btn btn-success btn-block"><i class="fas fa-save"></i> Save</button></div>`)
       row.append(col1)
       row.append(col2)

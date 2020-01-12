@@ -1,0 +1,26 @@
+.inputText{
+    background: #eee;
+    height: 80px;
+    border: none;
+    border-radius: 0;
+    border-left: rgba(17, 119, 167, 0.467);
+    padding: 10px;
+
+}
+.body{
+    background: red;
+}
+.btn{
+    height: 80px;
+}
+.row{
+    margin-bottom: 2px;
+}
+.hour{
+    border-top: 1px dotted rgb(19, 156, 235);
+    padding-top: 30px;
+}
+.inputcontent{
+    margin-left: -20px;
+    margin-right: -28px;
+}
