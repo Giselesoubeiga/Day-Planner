@@ -1,7 +1,7 @@
-# Day-Panner
-Work Day Planner
+
+<h1>Work Day Planner</h1>
 <hr>
-Third-Party APIs Homework
+Please visit the deployed project at: https://giselesoubeiga.github.io/Day-Panner/
 
 USER STORY AS AN employee with a busy schedule I WANT to add important events to a daily planner SO THAT I can manage my time effectively
 
