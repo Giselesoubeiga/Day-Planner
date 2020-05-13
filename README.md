@@ -1,6 +1,6 @@
 
 <h1>Work Day Planner</h1>
-Please visit the deployed project at: https://giselesoubeiga.github.io/Day-Panner/
+Please visit the deployed project at: https://giselesoubeiga.github.io/Day-Planner/
 
 
 
